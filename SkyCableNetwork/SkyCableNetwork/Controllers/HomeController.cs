@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SkyCableNetwork.Entity;
+using SkyCableNetwork.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,8 +10,32 @@ namespace SkyCableNetwork.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        SVNCableEntities svn = new SVNCableEntities();
+
+        public ActionResult Index(LoginModel model)
         {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    var result = svn.tblRegs.Where(a => a.EmailID == model.Email && a.Password == model.Password).FirstOrDefault();
+
+                    if (result!=null)
+                    {
+                       
+                        return RedirectToAction("Index", "Dashboard");
+                    }
+                    else
+                    {
+                        ViewBag.Message = "Invalid Email ID Or Password";
+                    }
+                }
+
+            }catch(Exception exc)
+            {
+
+            }
+
             return View();
         }
 
@@ -27,7 +53,64 @@ namespace SkyCableNetwork.Controllers
             return View();
         }
 
-        public ActionResult Registration()
+        public ActionResult Registration(RegistrationModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = svn.tblRegs.Where(a => a.EmailID == model.Email).FirstOrDefault();
+
+                try
+                {
+                    if (result == null)
+                    {
+                        tblReg _objReg = new tblReg();
+                        _objReg.Name = model.Name;
+                        _objReg.EmailID = model.Email;
+                        _objReg.Password = model.Password;
+
+                        svn.tblRegs.Add(_objReg);
+                        svn.SaveChanges();
+                        result _objResult = new result();
+                        _objResult.success = 1;
+                        _objResult.msg = "Success";
+                        return RedirectToAction("Index", "Home");
+
+                    }
+                    else
+                    {
+
+                        
+
+                    }
+                }
+                catch (Exception Exp)
+                {
+
+                }
+            
+            }
+            return View();
+        }
+
+        public ActionResult Forgot()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Forgot(string email)
+        {
+            if (ModelState.IsValid)
+            {
+
+            }
+
+
+            return View();
+        }
+
+        public ActionResult Reset()
+
         {
             return View();
         }

@@ -29,11 +29,38 @@ body.my-login-page {
 .my-login-page .card {
 	border-color: transparent;
 	box-shadow: 0 0 40px rgba(0,0,0,.05);
-}
+   }
 
 .my-login-page .card.fat {
 	padding: 10px;
 }
+
+.fat:after{
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: 0%;
+    width: 0px;
+    height: 0px;       
+    border-left: 4px solid #007bff;
+    border-bottom: 4px solid #007bff;
+    width: 40%;
+    height: 28%;
+   
+}
+.fat:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0%;
+    width: 0px;
+    height: 0px;
+    border-right: 4px solid #007bff;
+    border-top: 4px solid #007bff;
+    width: 40%;
+    height: 28%;
+}
+
 
 .my-login-page .card .card-title {
 	margin-bottom: 30px;
