@@ -249,7 +249,6 @@
     <Content Include="css\pages\plans.css" />
     <Content Include="css\pages\reports.css" />
     <Content Include="css\pages\signin.css" />
-    <Content Include="css\skysheet.css" />
     <Content Include="css\style.css" />
     <Content Include="Entity\SkyVisionCable.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
