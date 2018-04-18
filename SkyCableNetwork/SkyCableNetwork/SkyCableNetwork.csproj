@@ -201,9 +201,9 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\UserDashboardController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\UserDashboardController.cs" />
     <Compile Include="Entity\SkyVisionCable.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -236,6 +236,20 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="css\base-admin-responsive.css" />
+    <Content Include="css\bootstrap-responsive.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\font-awesome-ie7.css" />
+    <Content Include="css\font-awesome-ie7.min.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\pages\dashboard.css" />
+    <Content Include="css\pages\faq.css" />
+    <Content Include="css\pages\plans.css" />
+    <Content Include="css\pages\reports.css" />
+    <Content Include="css\pages\signin.css" />
+    <Content Include="css\style.css" />
     <Content Include="Entity\SkyVisionCable.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>SkyVisionCable.edmx</DependentUpon>
@@ -248,8 +262,37 @@
     </Content>
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="font\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="img\body-bg.png" />
+    <Content Include="img\glyphicons-halflings-white.html" />
+    <Content Include="img\glyphicons-halflings.html" />
+    <Content Include="img\icons-sa7c41345d9.png" />
+    <Content Include="img\message_avatar1.png" />
+    <Content Include="img\message_avatar2.png" />
+    <Content Include="img\signin\check.png" />
+    <Content Include="img\signin\fb_btn.png" />
+    <Content Include="img\signin\password.png" />
+    <Content Include="img\signin\twitter_btn.png" />
+    <Content Include="img\signin\user.png" />
+    <Content Include="js\base.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\chart.min.js" />
+    <Content Include="js\charts\area.js" />
+    <Content Include="js\charts\bar.js" />
+    <Content Include="js\charts\donut.js" />
+    <Content Include="js\charts\line.js" />
+    <Content Include="js\charts\pie.js" />
+    <Content Include="js\excanvas.min.js" />
+    <Content Include="js\faq.js" />
+    <Content Include="js\full-calendar\fullcalendar.css" />
+    <Content Include="js\full-calendar\fullcalendar.min.js" />
+    <Content Include="js\guidely\guidely-number.png" />
+    <Content Include="js\guidely\guidely.css" />
+    <Content Include="js\guidely\guidely.min.js" />
+    <Content Include="js\jquery-1.7.2.min.js" />
+    <Content Include="js\signin.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -261,6 +304,7 @@
     <Content Include="Scripts\bootstrap\css\bootstrap-grid.min.css.map" />
     <Content Include="Scripts\bootstrap\css\bootstrap-reboot.css.map" />
     <Content Include="Scripts\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="Scripts\bootstrap\css\bootstrap-responsive.min.css" />
     <Content Include="Scripts\bootstrap\css\bootstrap.css.map" />
     <Content Include="Scripts\bootstrap\css\bootstrap.min.css.map" />
     <EntityDeploy Include="Entity\SkyVisionCable.edmx">
@@ -270,6 +314,12 @@
     <Content Include="Entity\SkyVisionCable.edmx.diagram">
       <DependentUpon>SkyVisionCable.edmx</DependentUpon>
     </Content>
+    <Content Include="font\fontawesome-webfont.eot" />
+    <Content Include="font\fontawesome-webfont.svgz" />
+    <Content Include="font\fontawesome-webfont.ttf" />
+    <Content Include="font\fontawesome-webfont.woff" />
+    <Content Include="font\fontawesome-webfontd41d.eot" />
+    <Content Include="font\FontAwesome.otf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap\css\bootstrap-grid.css" />
     <Content Include="Scripts\bootstrap\css\bootstrap-grid.min.css" />
@@ -277,7 +327,10 @@
     <Content Include="Scripts\bootstrap\css\bootstrap-reboot.min.css" />
     <Content Include="Scripts\bootstrap\css\bootstrap.css" />
     <Content Include="Scripts\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Scripts\bootstrap\css\dashboard.css" />
+    <Content Include="Scripts\bootstrap\css\font-awesome.css" />
     <Content Include="Scripts\bootstrap\css\my-login.css" />
+    <Content Include="Scripts\bootstrap\css\style.css" />
     <Content Include="Scripts\bootstrap\js\bootstrap.js" />
     <Content Include="Scripts\bootstrap\js\bootstrap.min.js" />
     <Content Include="Scripts\css\my-login.css" />
@@ -290,8 +343,25 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\js\base.js" />
+    <Content Include="Scripts\js\bootstrap.js" />
+    <Content Include="Scripts\js\chart.min.js" />
+    <Content Include="Scripts\js\charts\area.js" />
+    <Content Include="Scripts\js\charts\bar.js" />
+    <Content Include="Scripts\js\charts\donut.js" />
+    <Content Include="Scripts\js\charts\line.js" />
+    <Content Include="Scripts\js\charts\pie.js" />
+    <Content Include="Scripts\js\excanvas.min.js" />
+    <Content Include="Scripts\js\faq.js" />
+    <Content Include="Scripts\js\full-calendar\fullcalendar.css" />
+    <Content Include="Scripts\js\full-calendar\fullcalendar.min.js" />
+    <Content Include="Scripts\js\guidely\guidely-number.png" />
+    <Content Include="Scripts\js\guidely\guidely.css" />
+    <Content Include="Scripts\js\guidely\guidely.min.js" />
+    <Content Include="Scripts\js\jquery-1.7.2.min.js" />
     <Content Include="Scripts\js\jquery.min.js" />
     <Content Include="Scripts\js\my-login.js" />
+    <Content Include="Scripts\js\signin.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
@@ -333,8 +403,8 @@
     <Content Include="Views\Home\Registration.cshtml" />
     <Content Include="Views\Home\Forgot.cshtml" />
     <Content Include="Views\Home\Reset.cshtml" />
-    <Content Include="Views\Dashboard\Index.cshtml" />
     <Content Include="Views\Shared\_DashboardMaster.cshtml" />
+    <Content Include="Views\UserDashboard\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

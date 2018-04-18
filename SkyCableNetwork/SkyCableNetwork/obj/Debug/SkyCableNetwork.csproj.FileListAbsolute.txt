@@ -126,6 +126,7 @@ D:\GitHubProject\SkyVisionNetwork\SkyCableNetwork\SkyCableNetwork\bin\System.Web
 D:\GitHubProject\SkyVisionNetwork\SkyCableNetwork\SkyCableNetwork\bin\System.Web.Mvc.dll
 D:\GitHubProject\SkyVisionNetwork\SkyCableNetwork\SkyCableNetwork\bin\System.Web.Optimization.dll
 D:\GitHubProject\SkyVisionNetwork\SkyCableNetwork\SkyCableNetwork\bin\System.Web.Razor.dll
+D:\GitHubProject\SkyVisionNetwork\SkyCableNetwork\SkyCableNetwork\bin\system.web.security.singlesignon.dll
 D:\GitHubProject\SkyVisionNetwork\SkyCableNetwork\SkyCableNetwork\bin\System.Web.WebPages.Deployment.dll
 D:\GitHubProject\SkyVisionNetwork\SkyCableNetwork\SkyCableNetwork\bin\System.Web.WebPages.dll
 D:\GitHubProject\SkyVisionNetwork\SkyCableNetwork\SkyCableNetwork\bin\System.Web.WebPages.Razor.dll
@@ -161,5 +162,3 @@ D:\GitHubProject\SkyVisionNetwork\SkyCableNetwork\SkyCableNetwork\bin\Microsoft.
 D:\GitHubProject\SkyVisionNetwork\SkyCableNetwork\SkyCableNetwork\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\GitHubProject\SkyVisionNetwork\SkyCableNetwork\SkyCableNetwork\obj\Debug\SkyCableNetwork.dll
 D:\GitHubProject\SkyVisionNetwork\SkyCableNetwork\SkyCableNetwork\obj\Debug\SkyCableNetwork.pdb
-D:\GitHubProject\SkyVisionNetwork\SkyCableNetwork\SkyCableNetwork\bin\system.web.security.singlesignon.dll
-D:\GitHubProject\SkyVisionNetwork\SkyCableNetwork\SkyCableNetwork\obj\Debug\SkyCableNetwork.csprojResolveAssemblyReference.cache

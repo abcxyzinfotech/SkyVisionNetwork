@@ -8,7 +8,7 @@ namespace SkyCableNetwork.Controllers
 {
     public class UserDashboardController : Controller
     {
-        // GET: Dashboard
+        // GET: UserDashboard
         public ActionResult Index()
         {
             return View();

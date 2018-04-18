@@ -23,7 +23,7 @@ namespace SkyCableNetwork.Controllers
                     if (result!=null)
                     {
                        
-                        return RedirectToAction("Index", "Dashboard");
+                        return RedirectToAction("Index", "UserDashboard");
                     }
                     else
                     {
