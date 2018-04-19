@@ -243,3 +243,4 @@ E:\GitHubProject\SkyVisionCable\SkyCableNetwork\SkyCableNetwork\bin\Microsoft.Ow
 E:\GitHubProject\SkyVisionCable\SkyCableNetwork\SkyCableNetwork\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 E:\GitHubProject\SkyVisionCable\SkyCableNetwork\SkyCableNetwork\obj\Debug\SkyCableNetwork.dll
 E:\GitHubProject\SkyVisionCable\SkyCableNetwork\SkyCableNetwork\obj\Debug\SkyCableNetwork.pdb
+D:\GitHubProject\SkyVisionNetwork\SkyCableNetwork\SkyCableNetwork\obj\Debug\SkyCableNetwork.csprojResolveAssemblyReference.cache

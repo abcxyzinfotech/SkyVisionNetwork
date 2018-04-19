@@ -249,6 +249,7 @@
     <Content Include="css\pages\plans.css" />
     <Content Include="css\pages\reports.css" />
     <Content Include="css\pages\signin.css" />
+    <Content Include="css\skydashboard.css" />
     <Content Include="css\style.css" />
     <Content Include="Entity\SkyVisionCable.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -405,6 +406,7 @@
     <Content Include="Views\Home\Reset.cshtml" />
     <Content Include="Views\Shared\_DashboardMaster.cshtml" />
     <Content Include="Views\UserDashboard\Index.cshtml" />
+    <Content Include="Views\UserDashboard\Registration.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

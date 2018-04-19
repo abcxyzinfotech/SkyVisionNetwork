@@ -1,0 +1,7 @@
+﻿#big_stats .stat:hover i{
+    color:#007bff;
+}
+.shortcuts .shortcut:hover{
+    color:#007bff;
+    background:#007bff;
+}
