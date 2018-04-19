@@ -1,0 +1,18 @@
+﻿#big_stats .stat:hover i {
+    color:#007bff;
+
+}
+.shortcuts .shortcut:hover {
+	background: #007bff;
+}
+
+.col-25{
+ float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+.col-35{
+     float: left;
+    width: 25%;
+    margin-top: 6px;
+}

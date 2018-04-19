@@ -244,6 +244,7 @@
     <Content Include="css\font-awesome-ie7.min.css" />
     <Content Include="css\font-awesome.css" />
     <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\maindashboard.css" />
     <Content Include="css\pages\dashboard.css" />
     <Content Include="css\pages\faq.css" />
     <Content Include="css\pages\plans.css" />
@@ -405,6 +406,7 @@
     <Content Include="Views\Home\Reset.cshtml" />
     <Content Include="Views\Shared\_DashboardMaster.cshtml" />
     <Content Include="Views\UserDashboard\Index.cshtml" />
+    <Content Include="Views\UserDashboard\UserRegistration.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -438,7 +440,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>55427</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:55427/</IISUrl>
+          <IISUrl>http://localhost:55429/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
